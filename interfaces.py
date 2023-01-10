@@ -1,9 +1,11 @@
 from abc import ABC, abstractmethod
 
+
 class Serviceable(ABC):
     @abstractmethod
     def needs_service(self):
         pass
+
 
 class Engine(ABC):
     @abstractmethod
@@ -16,3 +18,8 @@ class Battery(ABC):
     def needs_service(self):
         pass
 
+
+class Tire(ABC):
+    @abstractmethod
+    def needs_service(self):
+        pass
