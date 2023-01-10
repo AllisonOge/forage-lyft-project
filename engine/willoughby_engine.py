@@ -1,4 +1,4 @@
-from car import Engine
+from ..interfaces import Engine
 
 
 class WilloughbyEngine(Engine):

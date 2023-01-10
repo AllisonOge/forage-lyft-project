@@ -1,4 +1,5 @@
-from car import Engine
+from ..interfaces import Engine
+
 
 class SternmanEngine(Engine):
     def __init__(self, warning_light_is_on):

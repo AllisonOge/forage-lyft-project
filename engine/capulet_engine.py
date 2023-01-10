@@ -1,4 +1,5 @@
-from car import Engine
+from ..interfaces import Engine
+
 
 class CapuletEngine(Engine):
     def __init__(self, current_mileage, last_service_mileage):

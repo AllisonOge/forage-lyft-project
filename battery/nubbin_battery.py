@@ -1,4 +1,4 @@
-from car import Battery
+from ..interfaces import Battery
 
 class NubbinBattery(Battery):
     def __init__(self, current_date, last_service_date):
