@@ -1,2 +1,7 @@
-# Starter Repo
-This repo has everything you need to get started on the program, good luck!
+# forage virtual internship in backend engineering
+
+Introduction to concepts like:
+
+- UML class diagram
+- refactoring
+- desgin patterns like factory and strategy design patterns
